@@ -58,6 +58,9 @@ The extension also provides an interactive user interface for APIs related to us
 - **Tools:** Chrome API, Webpack, Babel
 
 ## Screenshots
+
+![Screenshot 2024-11-17 111153](https://github.com/user-attachments/assets/7848754b-8c4b-4f03-87fc-7602acae6aed)
+
 ![Screenshot 2024-11-17 110752](https://github.com/user-attachments/assets/69b52c95-629d-40cf-98a9-a5dfd730bdca)
 
 ![Screenshot 2024-11-17 101046](https://github.com/user-attachments/assets/a2ce1cbf-3919-41f3-b628-4952b55539b8)
