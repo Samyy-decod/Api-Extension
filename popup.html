@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Tester</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>API Tester</h1>
+    <div class="close-btn" id="closeExtension">✖</div>
+    <form id="apiForm">
+      <label for="url">API URL:</label>
+      <input type="text" id="url" placeholder="Enter API URL" required>
+
+      <label for="method">HTTP Method:</label>
+      <select id="method">
+        <option value="GET">GET</option>
+        <option value="POST">POST</option>
+        <option value="PUT">PUT</option>
+        <option value="DELETE">DELETE</option>
+      </select>
+
+      <label for="body">Request Body (JSON):</label>
+      <textarea id="body" placeholder='{"name":"example"}' ></textarea>
+
+      <button type="submit">Send Request</button>
+    </form>
+
+    <div id="responseSection">
+      <label for="responseFormat" class="lableformet">Response Format:</label>
+
+      <select id="responseFormat" class="Section">
+        <option value="json" selected>JSON</option>
+        <option value="text">Plain Text</option>
+        <option value="raw">Raw</option>
+      </select>
+
+      <select id="responseFormatViews" class="Section2">
+        <option value="product" >Product</option>
+        <option value="user">User</option>
+        <option value="data" selected>Data</option>
+      </select>
+    </div>
+    <pre id="responseOutput"></pre>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
